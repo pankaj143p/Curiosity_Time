@@ -1,3 +1,4 @@
+import LeftSidebar from "@/components/leftSidebar";
 
 
 export default function RootLayout({
@@ -7,9 +8,10 @@ export default function RootLayout({
 }>) {
   return (
     <div>
+      {/* ............ podcasts all ui's functions .............. */}
         <main>
-            <p className="text-white" >LEFT SIDEBAR</p>
-         
+          {/* for left side portion */}
+        <LeftSidebar></LeftSidebar>
             {children}
            <p className="text-white">RIGHT SIDEBAR</p>
 
