@@ -5,14 +5,8 @@ import React from 'react';
 const Home = () => {
   return (
     <div className='ml-9 mt-14 text-purple-400'>
-     
-     <p>It&apos;s a great day!</p>
-
-
-      <p>It&apos;s a great day!</p>
-
-      Home
-      <Button variant="outline">I'm Button</Button>
+    
+      <Button className='bg-slate-600 h-8 w-24 text-white-1' >I'm Button</Button>
     </div>
   );
 }
