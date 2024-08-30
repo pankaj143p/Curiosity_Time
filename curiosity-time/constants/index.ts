@@ -7,7 +7,7 @@ export const navMenuData = [
         icon : 'icons/home.svg'
     },
     {
-        route : 'discover',
+        route : '/discover',
         label : 'Discover',
         icon : 'icons/discover.svg'
     },
