@@ -1,6 +1,7 @@
 import LeftSidebar from "@/components/sidebars/leftSidebar";
 import Image from "next/image";
 import MobileNav from "@/components/responsiveness/mobilenav";
+import RightSidebar from "@/components/sidebars/rightsidebar";
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -24,12 +25,13 @@ export default function RootLayout({
               <MobileNav />
             </div>
             <div className="flex flex-col md:pb-14">
+              toster for notifications
+            {children}
             
             </div>
           </div>
         </section>
-            {children}
-           <p className="text-white-1">RIGHT SIDEBAR</p>
+        <RightSidebar></RightSidebar>
 
         </main>
     </div>

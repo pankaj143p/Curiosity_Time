@@ -12,7 +12,7 @@ export const navMenuData = [
         icon : 'icons/discover.svg'
     },
     {
-        route : '/createPodcast',
+        route : '/createPodcasts',
         label : 'Create New Podcasts', 
         icon : 'icons/home.svg'
     },

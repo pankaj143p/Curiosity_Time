@@ -3,7 +3,7 @@ import Link from 'next/link';
 import Image from 'next/image'
 import React from 'react';
 import logo from '@/public/icons/mainlogo.png'
-import { navMenuData } from '@/app/constants';
+import { navMenuData } from '@/constants';
 import { usePathname } from 'next/navigation';
 // import { useRouter } from 'next/router';
 import { cn } from '@/lib/utils';
