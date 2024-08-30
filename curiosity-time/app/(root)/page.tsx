@@ -9,7 +9,8 @@ const Home = () => {
     <div className='ml-9 mt-14 text-purple-400'>
     <section className='flex flex-col gap-5'>
      <h1 className='text-20 font-bold text-white-1'>tranding podcasts</h1> 
-    {podcastData.map(({ id, title, description, imgURL }) => (
+     <div className='podcast_grid'>
+       {podcastData.map(({ id, title, description, imgURL }) => (
       <PodcastCard
         key={id} 
         imgUrl={imgURL} 
@@ -18,6 +19,8 @@ const Home = () => {
         podcastId={id}
       />
     ))}
+     </div>
+   
     </section>
     </div>
   );

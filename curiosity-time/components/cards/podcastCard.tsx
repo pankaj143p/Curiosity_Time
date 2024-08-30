@@ -14,7 +14,8 @@ const PodcastCard = ({
         <Image src={imgUrl}
         height={174}
         width={174}   
-        alt={tittle}></Image>
+        alt={tittle}
+        className='aspect-square h-fit w-full rounded-xl 2xl:size-[200px]'></Image>
         <figcaption className='text-14 font-bold text-white-1'>{tittle}</figcaption>
         <figcaption className='text-14 font-normal text-white-1'>{description}</figcaption>
 
